@@ -42,7 +42,7 @@ Hetionet
 | Structural artifact | CYP19A1 / aromatase PDB used for Anastrozole investigation |
 | Verdict | The verified QSVC run approached its corresponding **0.7371** ensemble; the current multi-seed evaluation remains a separate protocol |
 
-![Biomedical PR-AUC comparison](assets/biomedical-pr-auc.svg)
+
 
 [Repository](https://github.com/iconbaypark2900/hybrid-qml-kg-poc) · [Current multi-seed table](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/results/multiseed/TABLE3.md) · [Full results evidence](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/RESULTS_EVIDENCE.md) · [Architecture](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/ARCHITECTURE.md)
 
