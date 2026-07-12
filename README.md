@@ -1,15 +1,17 @@
 # Jonathan Beale
 
-### Research systems for biology, markets, agent reliability, and quantum sensing
+### Research systems for biology, agent reliability, industrial simulation, and quantum sensing
 
 I build systems that make their own evidence inspectable. A result should lead to a dataset, configuration, benchmark, decision record, structure file, circuit, validation report, or preserved failure.
+
+Every highlighted project below is public.
 
 ## Project index
 
 | No. | System | Question | Repository |
 | ---: | --- | --- | --- |
 | 01 | Hybrid QML–KG | Can biomedical graph evidence rank plausible drug–disease links? | [open repository](https://github.com/iconbaypark2900/hybrid-qml-kg-poc) |
-| 02 | SIGMA | Can a market signal survive baselines, costs, and promotion gates? | [open repository](https://github.com/Quantum-Global-Group/sigma) |
+| 02 | Warehouse Digital Twin | Which robot-fleet policy performs best before touching a real floor? | [open repository](https://github.com/iconbaypark2900/warehouse-digital-twin) |
 | 03 | Liaison | How should independent AI executors be governed and reviewed? | [open repository](https://github.com/iconbaypark2900/liaison-agentSystem) |
 | 04 | Quantum Sensing Earth | Can gravity-derived water-mass data support a reproducible sensing workflow? | [open repository](https://github.com/iconbaypark2900/quantum-sensing-earth) |
 
@@ -43,32 +45,31 @@ Hetionet
 
 ---
 
-## 02 / SIGMA
+## 02 / Warehouse Digital Twin
 
-**Paper-first market research and execution governance**
+**Decision workbench for robot-fleet policies**
 
 ```text
-market window
-→ features
-→ model score
-→ baseline comparison
-→ cost-aware gate
-→ BUY / HOLD / SELL record
-→ paper execution
-→ promotion or rejection
+warehouse layout + order demand
+→ fleet and dispatch policy
+→ route and conflict simulation
+→ replay
+→ bottleneck and ROI scoring
+→ baseline / optimized comparison
+→ experiment report
 ```
 
 | Inspect | Evidence |
 | --- | --- |
-| Decision surface | Timestamped signal, confidence, expected return, and model version |
-| Research controls | Purged cross-validation, triple-barrier labels, and cost-aware net-edge gates |
-| Execution controls | Paper executor, audit records, retries, singleton worker lock, and risk limits |
-| Promotion policy | Human-gated evaluation before champion or live promotion |
-| Current phase | Internal-alpha infrastructure; paper validation remains the priority |
-| Verdict | Trading infrastructure exists; persistent predictive alpha is **not yet proven** |
+| Scenario controls | Robot count, speed, demand, zones, racks, lanes, and dispatch policy |
+| Policies | Nearest-available, balanced utilization, collision-aware, priority-first, and zone-based |
+| Simulation | Order queues, robot paths, traffic, conflicts, reservations, pickups, and deliveries |
+| Evaluation | Throughput, backlog, late orders, bottlenecks, goal scoring, and ROI |
+| Research workflow | Versioned scenarios, baseline vs. optimized runs, notes, exports, and PDF reports |
+| NVIDIA path | Isaac Sim, Replicator, and Isaac Lab export packages |
+| Verdict | A policy-testing environment; physical-floor performance still requires real operational validation |
 
-[Canonical SIGMA repository](https://github.com/Quantum-Global-Group/sigma)  
-*The working repository is access-controlled; the link is retained as the canonical project location.*
+[Repository](https://github.com/iconbaypark2900/warehouse-digital-twin) · [Backend API](https://github.com/iconbaypark2900/warehouse-digital-twin/tree/main/backend) · [Frontend workbench](https://github.com/iconbaypark2900/warehouse-digital-twin/tree/main/frontend)
 
 ---
 
@@ -139,7 +140,7 @@ gravity-derived raster
 
 | Workstation | Role |
 | --- | --- |
-| NVIDIA DGX Spark | Embeddings, graph ML, quantum simulation, large backtests, and local model serving |
+| NVIDIA DGX Spark | Embeddings, graph ML, quantum simulation, digital-twin workloads, and local model serving |
 | GMKtec EVO-X2 | APIs, dashboards, orchestration, documentation, and lightweight experiments |
 | Liaison | Shared task packets, evidence, validation, approval, and closeout across both systems |
 
@@ -149,6 +150,7 @@ gravity-derived raster
 **ML / data:** PyTorch, scikit-learn, TensorFlow, NetworkX, PyKEEN  
 **Quantum:** Qiskit, PennyLane, CUDA-Q  
 **Systems:** FastAPI, Next.js, Docker, PostgreSQL, pgvector, Neo4j, Qdrant  
+**Simulation:** NVIDIA Isaac Sim, Omniverse Replicator, Isaac Lab  
 **Operations:** GitHub Actions, local model endpoints, DGX Spark, EVO-X2
 
 ---
