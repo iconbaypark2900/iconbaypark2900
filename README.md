@@ -38,9 +38,9 @@ Hetionet
 | Problem | Predict missing Compound-treats-Disease links under severe class imbalance |
 | Current reproducible best | Ensemble PR-AUC **0.7805** at seed 42 |
 | Multi-seed result | **0.7398 ± 0.038** across five seeds |
-| Classical baseline | HistGBDT **0.7393 ± 0.037** |
+| Classical baseline | HistGBDT **0.7393 ± 0.037** |\n| Verified quantum benchmark | QSVC **0.7216 PR-AUC** — ZZ 16-qubit full kernel, genuine 908-second single run |
 | Structural artifact | CYP19A1 / aromatase PDB used for Anastrozole investigation |
-| Verdict | The ensemble clears the project threshold and remains essentially tied with the strongest classical baseline across the current multi-seed protocol |
+| Verdict | The verified QSVC run approached its corresponding **0.7371** ensemble; the current multi-seed evaluation remains a separate protocol |
 
 ![Biomedical PR-AUC comparison](assets/biomedical-pr-auc.svg)
 
