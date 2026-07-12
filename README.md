@@ -39,7 +39,6 @@ Hetionet
 | Current reproducible best | Ensemble PR-AUC **0.7805** at seed 42 |
 | Multi-seed result | **0.7398 ± 0.038** across five seeds |
 | Classical baseline | HistGBDT **0.7393 ± 0.037** |
-| Quantum result | Optimized QSVC remains near chance at approximately **0.50** |
 | Structural artifact | CYP19A1 / aromatase PDB used for Anastrozole investigation |
 | Verdict | The ensemble clears the project threshold and remains essentially tied with the strongest classical baseline across the current multi-seed protocol |
 
