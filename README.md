@@ -6,6 +6,8 @@ I build systems that make their own evidence inspectable. A result should lead t
 
 Every highlighted project below is public.
 
+![Public systems evidence map](assets/public-systems-map.svg)
+
 ## Project index
 
 | No. | System | Question | Repository |
@@ -40,6 +42,8 @@ Hetionet
 | Quantum result | Optimized QSVC remains near chance at approximately **0.50** |
 | Structural artifact | CYP19A1 / aromatase PDB used for Anastrozole investigation |
 | Verdict | The ensemble clears the project threshold; quantum advantage is **not** established |
+
+![Biomedical PR-AUC comparison](assets/biomedical-pr-auc.svg)
 
 [Repository](https://github.com/iconbaypark2900/hybrid-qml-kg-poc) · [Results table](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/results/multiseed/TABLE3.md) · [Architecture](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/ARCHITECTURE.md)
 
@@ -137,6 +141,15 @@ gravity-derived raster
 5. **Failures remain part of the record** — weak results and blocked gates are useful evidence.
 
 ## Operating environment
+
+```mermaid
+flowchart LR
+    Q["Research question"] --> E["EVO-X2<br/>APIs · dashboards · lightweight runs"]
+    Q --> D["DGX Spark<br/>embeddings · graph ML · simulation"]
+    E --> L["Liaison<br/>context · approval · validation"]
+    D --> L
+    L --> A["Inspectable artifacts<br/>results · reports · closeout"]
+```
 
 | Workstation | Role |
 | --- | --- |
