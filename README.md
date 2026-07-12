@@ -41,11 +41,11 @@ Hetionet
 | Classical baseline | HistGBDT **0.7393 ± 0.037** |
 | Quantum result | Optimized QSVC remains near chance at approximately **0.50** |
 | Structural artifact | CYP19A1 / aromatase PDB used for Anastrozole investigation |
-| Verdict | The ensemble clears the project threshold; quantum advantage is **not** established |
+| Verdict | The ensemble clears the project threshold and remains essentially tied with the strongest classical baseline across the current multi-seed protocol |
 
 ![Biomedical PR-AUC comparison](assets/biomedical-pr-auc.svg)
 
-[Repository](https://github.com/iconbaypark2900/hybrid-qml-kg-poc) · [Results table](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/results/multiseed/TABLE3.md) · [Architecture](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/ARCHITECTURE.md)
+[Repository](https://github.com/iconbaypark2900/hybrid-qml-kg-poc) · [Current multi-seed table](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/results/multiseed/TABLE3.md) · [Full results evidence](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/RESULTS_EVIDENCE.md) · [Architecture](https://github.com/iconbaypark2900/hybrid-qml-kg-poc/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
